@@ -83,3 +83,9 @@ scoreBoard.updateScore(liveMatch,0,5);
 var summary = scoreBoard.getLiveFixturesSummary();
 scoreBoard.finishMatch(liveMatch);
 ```
+
+
+## Assumptions
+
+- The summary of the matches sends an empty list when the last games finishes.
+- The list of matches are provided to the score board.
