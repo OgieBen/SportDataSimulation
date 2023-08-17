@@ -65,10 +65,6 @@ public class LiveMatch implements ILiveMatch<ILiveScores> {
         return matchId;
     }
 
-    public String getMatchId(){
-        return matchId;
-    }
-
     @Override
     public int getTotalMatchScore(){
         return homeTeam.getScore() + awayTeam.getScore();
