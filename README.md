@@ -17,7 +17,7 @@ dependencies {
 ```
 
 ## How to use the library
-The library provides the ILiveMatchScoreBoard API that allows the user to start and finish matches.
+The library provides the _ILiveMatchScoreBoard_ API that allows the user to start and finish matches.
 
 The ScoreBoard class implements this API. The ScoreBoard class can be used as follows:
 
@@ -26,7 +26,7 @@ The ScoreBoard class implements this API. The ScoreBoard class can be used as fo
 ```
 
 ### Start a match
-The ScoreBoard provides a startMatch method that accepts an ILiveMatch object which will be used to start, update and finish a match.
+The ScoreBoard provides a _startMatch_ method that accepts an _ILiveMatch_ object which will be used to start, update and finish a match.
 
 ```java
         var scoreBoard = new ScoreBoard();
@@ -36,7 +36,7 @@ The ScoreBoard provides a startMatch method that accepts an ILiveMatch object wh
 
 ### Update Scores
 
-The ScoreBoard allows users to be able to update a running match score by calling the updateScore method.
+The ScoreBoard allows users to be able to update a running match score by calling the _updateScore_ method.
 
 ```java
         var scoreBoard = new ScoreBoard();
@@ -58,7 +58,7 @@ The ScoreBoard object also allows the user to get the summary of all running mat
         var summary = scoreBoard.getLiveFixturesSummary();
 ```
 
-This method returns the summary of all running matches
+The _getLiveFixturesSummary()_ method returns the summary of all running matches
 
 ### Finish a match
 The ScoreBoard API allows the user to be able to finish a match. Once a match is finished it is removed from the
