@@ -7,6 +7,13 @@ The main focus of the project is the live-score library.
 
 # Installation
 
+## Requirement
+
+You need to install the following tools to be able to run this project:
+
+- Java 17
+- Gradle 7.3
+
 The library can be included into any Gradle based project by adding the project as a local dependency to your dependency
 closure.
 
