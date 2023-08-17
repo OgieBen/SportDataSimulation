@@ -1,0 +1,20 @@
+plugins {
+    java
+}
+
+group = "com.ogieben"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+    implementation(project(":live_score"))
+}
+
+tasks.getByName<Test>("test") {
+    useJUnitPlatform()
+}

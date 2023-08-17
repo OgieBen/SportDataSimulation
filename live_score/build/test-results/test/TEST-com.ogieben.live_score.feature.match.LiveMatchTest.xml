@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ogieben.live_score.feature.match.LiveMatchTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-08-17T15:48:17" hostname="Bens-MacBook-Pro-2.local" time="0.029">
+  <properties/>
+  <testcase name="verify_that_scores_are_valid()" classname="com.ogieben.live_score.feature.match.LiveMatchTest" time="0.019"/>
+  <testcase name="startMatch()" classname="com.ogieben.live_score.feature.match.LiveMatchTest" time="0.001"/>
+  <testcase name="getCurrentScore()" classname="com.ogieben.live_score.feature.match.LiveMatchTest" time="0.001"/>
+  <testcase name="verify_that_scores_do_not_change_after_match()" classname="com.ogieben.live_score.feature.match.LiveMatchTest" time="0.001"/>
+  <testcase name="updateScore()" classname="com.ogieben.live_score.feature.match.LiveMatchTest" time="0.001"/>
+  <testcase name="verify_six_games_have_been_started()" classname="com.ogieben.live_score.feature.match.LiveMatchTest" time="0.005"/>
+  <testcase name="stopMatch()" classname="com.ogieben.live_score.feature.match.LiveMatchTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
